@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <script src="./bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap-style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="page-layout">
-      <header>
+      <!-- <header>
         <nav>
           <div class="logo">
             <img src="./img/logo.png" alt="logo" />
@@ -31,168 +34,206 @@
         <img src="./img/leave1.png" alt="" class="header-bg-left-img" />
         <img src="./img/leave1.png" alt="" class="header-bg-right-img1" />
         <img src="./img/leave1.png" alt="" class="header-bg-right-img2" />
+      </header> -->
+
+      <header>
+       
+          
+        
+        <nav class="navbar navbar-expand-lg navbar-light ay-navbar">
+          <div class="container-fluid">
+            <div>
+              <img 
+                src="./img/logo.png"
+                width="auto"
+                height="80px"
+                alt=""
+                loading="lazy"
+              />
+              <a class="navbar-brand" href="#">Nutri</a>Site
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Reviews</a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </header>
 
-      <main>
-        <section class="main-introdution-layout">
-          <div class="main-introdution-layout-left-side">
-            <h3>Eat Healthy And<br />Natural Food</h3>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout the
-              generated Lorem Ipsum is therefore always free from repetition.
-            </p>
-            <button>Discover Food</button>
-          </div>
-          <div class="main-introdution-layout-right-side">
-            <div class="main-introdution-layout-right-side-round">
-              <img
-                src="./img/meal1.png"
-                alt=""
-                class="main-introdution-layout-right-side-round-img-meal"
-              />
-              <img
-                src="./img/leave3-1.png"
-                alt=""
-                class="main-introdution-layout-right-side-round-leave-img-left"
-              />
-              <img
-                src="./img/leave3-2.png"
-                alt=""
-                class="main-introdution-layout-right-side-round-leave-img-right"
-              />
-              <span
-                class="main-introdution-layout-right-side-round-border-circle-big"
-              ></span>
-              <span
-                class="main-introdution-layout-right-side-round-border-circle-small"
-              ></span>
+      
+        
+          <section class="main-introdution-layout">
+            <div class="main-introdution-layout-left-side">
+              <h3>Eat Healthy And<br />Natural Food</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout the
+                generated Lorem Ipsum is therefore always free from repetition.
+              </p>
+              <button>Discover Food</button>
             </div>
+            <div class="main-introdution-layout-right-side">
+              <div class="main-introdution-layout-right-side-round">
+                <img
+                  src="./img/meal1.png"
+                  alt=""
+                  class="main-introdution-layout-right-side-round-img-meal"
+                />
+                <img
+                  src="./img/leave3-1.png"
+                  alt=""
+                  class="main-introdution-layout-right-side-round-leave-img-left"
+                />
+                <img
+                  src="./img/leave3-2.png"
+                  alt=""
+                  class="main-introdution-layout-right-side-round-leave-img-right"
+                />
+                <span
+                  class="main-introdution-layout-right-side-round-border-circle-big"
+                ></span>
+                <span
+                  class="main-introdution-layout-right-side-round-border-circle-small"
+                ></span>
+              </div>
 
-            <div
-              class="main-introdution-layout-right-side-first-feedback-container"
-            >
-              <div class="main-introdution-layout-right-side-feedback">
-                <div class="main-introdution-layout-right-side-feedback-header">
-                  <img src="./img/avatar-pic1.png" alt="" />
+              <div
+                class="main-introdution-layout-right-side-first-feedback-container"
+              >
+                <div class="main-introdution-layout-right-side-feedback">
                   <div
-                    class="main-introdution-layout-right-side-feedback-header-person-info"
+                    class="main-introdution-layout-right-side-feedback-header"
                   >
-                    <span
-                      class="main-introdution-layout-right-side-feedback-header-person-info-name"
-                      >Allie Grater</span
-                    >
+                    <img src="./img/avatar-pic1.png" alt="" />
                     <div
-                      class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar"
+                      class="main-introdution-layout-right-side-feedback-header-person-info"
                     >
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
+                      <span
+                        class="main-introdution-layout-right-side-feedback-header-person-info-name"
+                        >Allie Grater</span
+                      >
+                      <div
+                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar"
+                      >
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <p
-                  class="main-introdution-layout-right-side-feedback-feedback-text"
-                >
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form.
-                </p>
-              </div>
-              <div
-                class="main-introdution-layout-right-side-feedback-left-border"
-              ></div>
-              <div
-                class="main-introdution-layout-right-side-feedback-right-border"
-              ></div>
-            </div>
-
-            <div
-              class="main-introdution-layout-right-side-second-feedback-container"
-            >
-              <div class="main-introdution-layout-right-side-feedback">
-                <div class="main-introdution-layout-right-side-feedback-header">
-                  <img src="./img/avatar-pic2.png" alt="" />
-                  <div
-                    class="main-introdution-layout-right-side-feedback-header-person-info"
+                  <p
+                    class="main-introdution-layout-right-side-feedback-feedback-text"
                   >
-                    <span
-                      class="main-introdution-layout-right-side-feedback-header-person-info-name"
-                      >Percy Kewshun</span
-                    >
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </p>
+                </div>
+                <div
+                  class="main-introdution-layout-right-side-feedback-left-border"
+                ></div>
+                <div
+                  class="main-introdution-layout-right-side-feedback-right-border"
+                ></div>
+              </div>
+
+              <div
+                class="main-introdution-layout-right-side-second-feedback-container"
+              >
+                <div class="main-introdution-layout-right-side-feedback">
+                  <div
+                    class="main-introdution-layout-right-side-feedback-header"
+                  >
+                    <img src="./img/avatar-pic2.png" alt="" />
                     <div
-                      class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar"
+                      class="main-introdution-layout-right-side-feedback-header-person-info"
                     >
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
-                      <img
-                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
-                        src="./img/star.png"
-                      />
+                      <span
+                        class="main-introdution-layout-right-side-feedback-header-person-info-name"
+                        >Percy Kewshun</span
+                      >
+                      <div
+                        class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar"
+                      >
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                        <img
+                          class="main-introdution-layout-right-side-feedback-header-person-info-rating-bar-star"
+                          src="./img/star.png"
+                        />
+                      </div>
                     </div>
                   </div>
+                  <p
+                    class="main-introdution-layout-right-side-feedback-feedback-text"
+                  >
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </p>
                 </div>
-                <p
-                  class="main-introdution-layout-right-side-feedback-feedback-text"
-                >
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form.
-                </p>
+                <div
+                  class="main-introdution-layout-right-side-feedback-left-border"
+                ></div>
+                <div
+                  class="main-introdution-layout-right-side-feedback-right-border"
+                ></div>
               </div>
-              <div
-                class="main-introdution-layout-right-side-feedback-left-border"
-              ></div>
-              <div
-                class="main-introdution-layout-right-side-feedback-right-border"
-              ></div>
             </div>
-          </div>
 
-          <div class="main-introdution-layout-bg-blur-round1"></div>
-          <div class="main-introdution-layout-bg-blur-round2"></div>
-          <img
-            src="./img/leave2.png"
-            alt=""
-            class="main-introdution-layout-bg-leave1"
-          />
-          <img
-            src="./img/leave2.png"
-            alt=""
-            class="main-introdution-layout-bg-leave2"
-          />
-        </section>
+            <div class="main-introdution-layout-bg-blur-round1"></div>
+            <div class="main-introdution-layout-bg-blur-round2"></div>
+            <img
+              src="./img/leave2.png"
+              alt=""
+              class="main-introdution-layout-bg-leave1"
+            />
+            <img
+              src="./img/leave2.png"
+              alt=""
+              class="main-introdution-layout-bg-leave2"
+            />
+          </section>
+        </div>
 
         <footer>
           <div class="footer-footer-menu">
@@ -214,7 +255,7 @@
             <span>2021 copyright. All right reserved.</span>
           </div>
         </footer>
-      </main>
+      
     </div>
   </body>
 </html>
