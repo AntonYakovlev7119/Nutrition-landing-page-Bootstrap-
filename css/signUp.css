@@ -1,0 +1,53 @@
+.ay-registration-layout {
+  position: relative;
+  padding: 50px 0 30px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background: rgba(134, 180, 114, 0.15);
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 0 0 2px black;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+form label,
+input,
+button {
+  margin: 6px 0;
+}
+
+input {
+  height: 40px;
+  padding: 5px;
+  width: 90%;
+}
+
+.ay-submit {
+  background: linear-gradient(180.61deg, #98d67d 0.45%, #569f36 99.39%);
+  cursor: pointer;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: rgb(86, 202, 105);
+}
+
+fieldset {
+  display: flex;
+  border: 0;
+}
+
+fieldset label {
+  margin: 5px 10px 0 10px;
+  font-size: 12px;
+}

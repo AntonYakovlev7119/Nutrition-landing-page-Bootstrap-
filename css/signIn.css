@@ -1,0 +1,55 @@
+.ay-authorization-layout {
+  position: relative;
+  min-height: 90vh;
+  padding: 70px 0 30px 0;
+}
+
+body {
+  min-height: 80vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 320px;
+  background: rgba(134, 180, 114, 0.15);
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 0 5px 20px rgb(153, 153, 153);
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Segoe UI";
+}
+
+form label,
+input,
+div,
+button {
+  margin: 6px 0;
+}
+
+.password-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  height: 40px;
+  padding: 5px;
+}
+
+.ay-forgot-password {
+  color: #545454;
+}
+
+.ay-button {
+  background: linear-gradient(180.61deg, #98d67d 0.45%, #569f36 99.39%);
+  margin-top: 20px;
+  padding: 5px 0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-weight: 300;
+}
