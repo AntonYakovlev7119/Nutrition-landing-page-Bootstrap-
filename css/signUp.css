@@ -10,7 +10,7 @@ form {
   background: rgba(134, 180, 114, 0.15);
   padding: 20px;
   border-radius: 2%;
-  box-shadow: 0 0 2px black;
+  box-shadow: 0 5px 20px rgb(153, 153, 153);
   font-family: "Segoe UI";
   font-size: 24px;
   font-weight: 600;
